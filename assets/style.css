@@ -11,6 +11,9 @@
 .ff-fir {
   font-family: "Fira Sans", sans-serif;
 }
+.vh-100 {
+  min-height: 100vh;
+}
 .container {
   max-width: 1110px;
   margin-left: auto;
@@ -131,7 +134,7 @@
 }
 
 .herobg {
-  background-image: url("./img/header-bg.png");
+  background-image: url("./img/header-bg-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -141,7 +144,14 @@
   bottom: 0;
   width: 100%;
 }
+.uplayer {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -3;
+}
 .relative {
+  z-index: 3;
   position: relative;
   overflow: hidden;
 }
